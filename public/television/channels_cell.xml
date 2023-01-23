@@ -1,0 +1,8 @@
+<row class="container" width=450 height=35 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW' style='asset: "Background2";'>
+	<Text width=25 height=20 margins=10 options='{textHeight: 0.08, textAnchor: "middle-center"}'>${cell.index}</Text>
+	<Button id=${cell.id} width=35 height=35 options='{textAnchor: "middle-center", textHeight: 0.08}' img=${JSON.stringify(cell.img)}></Button>
+	<Button id=${cell.id} width=180 height=35 options='{textAnchor: "middle-center", textHeight: 0.08}'>${cell.name}</Button>
+	<Text width=80 height=20 options='{textHeight: 0.08, textAnchor: "middle-center"}'>${cell.country}</Text>
+	<Text width=80 height=20 options='{textHeight: 0.08, textAnchor: "middle-center"}'>${cell.language}</Text>
+	<Button id='play' width=20 height=20 style='asset: "Play";'></Button>
+</row>

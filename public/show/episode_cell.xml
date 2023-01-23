@@ -1,0 +1,3 @@
+<row class="container" width=30 height=30 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW' style='asset: "Cell";'>
+	<Button id=${cell.id} width=30 height=30 options='{textAnchor: "middle-center", textHeight: 0.08}'>E${cell.name}</Button>
+</row>

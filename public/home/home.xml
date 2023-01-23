@@ -1,0 +1,11 @@
+<root options='{alignment: "middle-center"}'>
+	<row width=400 height=230 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' style='asset: "Background";'>
+		<row width=400 weight=40 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+			<Button id='logo' width=30 height=30 style='asset: "Logo";'></Button>
+			<Text width=230 height=15 options='{textHeight: 0.18, textAnchor: "middle-center"}'>The Free MREdia Center</Text>
+		</row>
+		<row width=400 height=190 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+			<Grid id='apps_list' justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' options='{row:2, col:4, width:80, height:80, margins:5, template_url: "home/app_cell.xml"}'>
+		</row>
+	</row>
+</root>

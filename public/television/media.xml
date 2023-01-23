@@ -1,0 +1,35 @@
+<root options='{alignment: "middle-center"}'>
+	<row width=500 height=260 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+		<row width=470 height=220 justifyContent='JUSTIFY_CENTER' alignItems='JUSTIFY_FLEX_START' flexDirection='FLEX_DIRECTION_ROW'>
+			<col width=440 height=50 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_FLEX_START' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+				<Text id='title' width=10 height=30 options='{textHeight: 0.12, textAnchor: "middle-left"}'></Text>
+				<Text id='uploader' width=20 height=20 options='{textHeight: 0.08, textAnchor: "middle-left"}' style='textColor: "#999999";'></Text>
+			</col>
+			<col width=30 height=50 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_FLEX_END' flexDirection='FLEX_DIRECTION_ROW'>
+				<Button id='favourite' width=20 height=20 margins=4 style='asset: "Star";'></Button>
+			</col>
+		</row>
+		<row width=470 height=40 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' style='asset: "Background2";'>
+			<row width=470 height=30 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<col width=30 height=20 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Button id='stop' width=20 height=20 margins=4 style='asset: "Stop";'></Button>
+				</col>
+				<col width=200 height=20 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Text width=80 height=20 options='{textHeight: 0.08, textAnchor: "middle-left"}'>Rolloff</Text>
+					<Text width=16 height=16 margins=8 style='asset: "Wifi";'></Text>
+					<Number id='rolloff_number' width=70 height=20 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+						<Button id='dec' width=16 height=16 margins=8 style='asset: "Minus";'></Button>
+						<Button id='num' width=20 height=20 options='{textHeight: 0.09, textAnchor: "middle-center"}'></Button>
+						<Button id='inc' width=16 height=16 margins=8 style='asset: "Plus";'></Button>
+					</Number>
+				</col>
+				<col width=200 height=20 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Text width=80 height=20 options='{textHeight: 0.08, textAnchor: "middle-left"}'>Volume</Text>
+					<Button id='volume_button' width=20 height=20 margins=10 style='asset: "Volume Up";'></Button>
+					<Slider id="volume_slider" width=64 height=4 style='asset: "Slider2";' options='{puck: {asset: "Circle", width: 8, height: 8}}'></Slider>
+				</col>
+				<Button id='fullscreen' width=16 height=16 margins=14 style='asset: "Fullscreen";'></Button>
+			</row>
+		</row>
+	</row>
+</root>

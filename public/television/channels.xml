@@ -1,0 +1,18 @@
+<row id='channels' width=500 height=320 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+	<row width=500 height=290 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+		<Grid id='channels_list' justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' options='{row:7, col:1, width:450, height:35, margins:2, template_url: "television/channels_cell.xml"}'></Grid>
+	</row>
+	<row width=500 height=30 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+		<row width=100 height=30 margins=10 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+			<Button id='back' width=10 height=10 style='asset: "Left";'></Button>
+			<Text width=90 height=20 options='{textHeight: 0.08, textAnchor: "middle-center"}'>Back to categories</Text>
+		</row>
+		<Text id='category_text' width=100 height=20 margins=10 options='{textHeight: 0.08, textAnchor: "middle-center"}'></Text>
+		<Text width=40 height=20 margins=10 options='{textHeight: 0.08, textAnchor: "middle-center"}'>Current Page</Text>
+		<Pager id='channels_pager' width=50 height=20 margins=10 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+			<Button width=10 height=10 id='prev' options='{textHeight: 0.08, textAnchor: "middle-center"}' style='asset: "Left";'></Button>
+			<Button width=20 height=20 id='num' options='{textHeight: 0.08, textAnchor: "middle-center"}'></Button>
+			<Button width=10 height=10 id='next' options='{textHeight: 0.08, textAnchor: "middle-center"}' style='asset: "Right";'></Button>
+		</Pager>
+	</row>
+</row>

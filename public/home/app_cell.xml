@@ -1,0 +1,4 @@
+<row class="container" width=80 height=80 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+	<Button id=${cell.id} width=70 height=70 style='asset: "${cell.asset}";'></Button>
+	<Text width=80 height=15 options='{textHeight: 0.08, textAnchor: "middle-center", textJustify: "center"}'>${cell.name}</Text>
+</row>

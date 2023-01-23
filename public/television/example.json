@@ -1,0 +1,22 @@
+[
+    {
+        "id": "luminosity_tv_1",
+        "name": "Luminosity TV 1",
+        "logo": "https://cdn-content-ingress.altvr.com/uploads/user/profile_image/1297921030701973550/thumbnail_SPOILER_IMG_4171.jpg",
+        "_streams": [
+            {
+                "url": "http://123tv-mx1.flex-cdn.net/index.m3u8"
+            }
+        ]
+    },
+    {
+        "id": "luminosity_tv_2",
+        "name": "Luminosity TV 2",
+        "logo": "https://cdn-content-ingress.altvr.com/uploads/user/profile_image/1297921030701973550/thumbnail_SPOILER_IMG_4171.jpg",
+        "_streams": [
+            {
+                "url": "http://123tv-mx1.flex-cdn.net/index.m3u8"
+            }
+        ]
+    }
+]

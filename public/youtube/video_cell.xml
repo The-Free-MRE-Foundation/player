@@ -1,0 +1,17 @@
+<row class="container" width=100 height=85 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' style='asset: "Row";'>
+	<Button id=${cell.id} width=95 height=57 img=${JSON.stringify(cell.img)}></Button>
+	<Text positionType='POSITION_TYPE_ABSOLUTE' x=75 y=45 width=20 height=10 options='{depth: 2, textHeight: 0.05}'>${cell.duration_text}</Text>
+	<row width=95 height=28 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+		<row width=95 height=14 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+			<Text width=3 height=14 options='{depth: 2, textAnchor: "middle-left", textHeight: ${cell.height}}'>${cell.title}</Text>
+		</row>
+		<row width=95 height=14 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+			<col width=48 height=14 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<Text width=3 height=14 options='{depth: 2, textAnchor: "middle-left", textHeight: 0.05}'>${cell.uploader}</Text>
+			</col>
+			<col width=47 height=14 justifyContent='JUSTIFY_FLEX_END' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<Text width=3 height=14 options='{depth: 2, textAnchor: "middle-right", textHeight: 0.05}'>${cell.view_count} views</Text>
+			</col>
+		</row>
+	</row>
+</row>

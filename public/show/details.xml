@@ -1,0 +1,34 @@
+<row id='details' width=500 height=330 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+	<row width=470 height=60 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+		<Grid id='seasons_list' justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' options='{row:3, col:13, width:25, height:25, margins:2, defaultAsset: "Cell", highlightAsset: "Cell Active", template_url: "show/season_cell.xml"}'></Grid>
+	</row>
+	<row width=470 height=100 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+		<Button width=10 height=10 id='prev' options='{textHeight: 0.08, textAnchor: "middle-center"}' style='asset: "Left";'></Button>
+		<Grid id='episodes_list' justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' options='{row:2, col:13, width:30, height:30, margins:2, defaultAsset: "Cell", highlightAsset: "Cell Active", template_url: "show/episode_cell.xml"}'></Grid>
+		<Button width=10 height=10 id='next' options='{textHeight: 0.08, textAnchor: "middle-center"}' style='asset: "Right";'></Button>
+	</row>
+	<Pager id='episodes_pager' width=1 height=1 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+		<Button width=1 height=1 id='num' options='{textHeight: 0.001, textAnchor: "middle-center"}'></Button>
+	</Pager>
+	<row width=420 height=120 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+		<Button id='image' width=180 height=120></Button>
+		<col width=240 height=120 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_FLEX_START' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+			<row width=240 height=15 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<col width=155 height=60 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Text id='title' width=20 height=15 options='{textAnchor: "middle-left"}'></Text>
+				</col>
+				<col width=85 height=60 justifyContent='JUSTIFY_FLEX_END' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Text id='date' width=20 height=15 options='{textAnchor: "middle-right", textHeight: 0.07}' style='textColor: "#999999";'></Text>
+				</col>
+			</row>
+			<Text id='plot' width=240 height=80 options='{textAnchor: "middle-center"}' style='textColor: "#50DB60";'></Text>
+		</col>
+	</row>
+	<row width=500 height=30 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+		<row width=100 height=30 margins=10 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+			<Button id='back' width=10 height=10 style='asset: "Left";'></Button>
+			<Text width=90 height=20 options='{textHeight: 0.08, textAnchor: "middle-center"}'>Back to shows</Text>
+		</row>
+		<Text id='show_text' width=400 height=20 margins=10 options='{textHeight: 0.08, textAnchor: "middle-center"}'></Text>
+	</row>
+</row>

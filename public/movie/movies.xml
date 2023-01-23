@@ -1,0 +1,10 @@
+<row id='movies' width=500 height=320 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+	<row width=500 height=300 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+		<Button width=20 height=20 id='prev' options='{textHeight: 0.08, textAnchor: "middle-center"}' style='asset: "Left";'></Button>
+		<Grid id='movies_list' justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' options='{row:4, col:2, width:200, height:60, margins:5, template_url: "movie/movie_cell.xml"}'></Grid>
+		<Button width=20 height=20 id='next' options='{textHeight: 0.08, textAnchor: "middle-center"}' style='asset: "Right";'></Button>
+	</row>
+	<Pager id='movies_pager' width=20 height=20 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+		<Button width=20 height=20 id='num' options='{textHeight: 0.08, textAnchor: "middle-center"}'></Button>
+	</Pager>
+</row>

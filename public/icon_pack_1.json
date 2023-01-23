@@ -1,0 +1,587 @@
+[
+	{
+		"name": "Back",
+		"resourceId": "artifact:2052284131320005419",
+		"dimensions": {
+			"width": 5.3,
+			"height": 5.3,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Background",
+		"resourceId": "artifact:2046822292360528802",
+		"dimensions": {
+			"width": 16,
+			"height": 9,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Background2",
+		"resourceId": "artifact:2047654930281399094",
+		"dimensions": {
+			"width": 16,
+			"height": 1.6,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Background3",
+		"resourceId": "artifact:2052284131059958570",
+		"dimensions": {
+			"width": 5,
+			"height": 9,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Background4",
+		"resourceId": "artifact:2060087546175554475",
+		"dimensions": {
+			"width": 16,
+			"height": 9,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Backward",
+		"resourceId": "artifact:2046822293543322537",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Forward",
+		"resourceId": "artifact:2046822292620575651",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Fullscreen",
+		"resourceId": "artifact:2046822293937587116",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Input1",
+		"resourceId": "artifact:2046822291840435100",
+		"dimensions": {
+			"width": 13.3,
+			"height": 2,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "List",
+		"resourceId": "artifact:2046822294331851696",
+		"dimensions": {
+			"width": 8,
+			"height": 8,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Next",
+		"resourceId": "artifact:2046822293014840230",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Pause",
+		"resourceId": "artifact:2046822291186123671",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Play",
+		"resourceId": "artifact:2046822291051905942",
+		"dimensions": {
+			"width": 5.42,
+			"height": 5.42,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Plus",
+		"resourceId": "artifact:2046822293283275688",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Previous",
+		"resourceId": "artifact:2046822294063416238",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Refresh",
+		"resourceId": "artifact:2046822293669151658",
+		"dimensions": {
+			"width": 5.42,
+			"height": 5.42,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Row",
+		"resourceId": "artifact:2046822291580388249",
+		"dimensions": {
+			"width": 10,
+			"height": 10,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Search",
+		"resourceId": "artifact:2046822293149057959",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Settings",
+		"resourceId": "artifact:2046822292754793381",
+		"dimensions": {
+			"width": 8,
+			"height": 8,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Tv",
+		"resourceId": "artifact:2046822291706217371",
+		"dimensions": {
+			"width": 8.3,
+			"height": 8.3,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Twitch",
+		"resourceId": "artifact:2049180141518586485",
+		"dimensions": {
+			"width": 9.5,
+			"height": 9.5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Volume Off",
+		"resourceId": "artifact:2046822292234699680",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Volume Up",
+		"resourceId": "artifact:2046822294591898545",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Wifi",
+		"resourceId": "artifact:2046822294197633967",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Youtube",
+		"resourceId": "artifact:2046822291311952792",
+		"dimensions": {
+			"width": 8,
+			"height": 8,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Button1",
+		"resourceId": "artifact:2046831820846137682",
+		"dimensions": {
+			"width": 4,
+			"height": 1.5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Star",
+		"resourceId": "artifact:2046872040907997691",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Star2",
+		"resourceId": "artifact:2047844992818348797",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "User",
+		"resourceId": "artifact:2046872040513733113",
+		"dimensions": {
+			"width": 8,
+			"height": 8,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Down",
+		"resourceId": "artifact:2046916601134973764",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Up",
+		"resourceId": "artifact:2046916600480662337",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Scroll Frame",
+		"resourceId": "artifact:2046916600874926915",
+		"dimensions": {
+			"width": 0.9,
+			"height": 4.5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Scroll Bar",
+		"resourceId": "artifact:2046916600614880066",
+		"dimensions": {
+			"width": 0.81,
+			"height": 1.3,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Logo",
+		"resourceId": "artifact:2046900007319110653",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Circle",
+		"resourceId": "artifact:2047592909066207751",
+		"dimensions": {
+			"width": 2.56,
+			"height": 2.56,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Minus",
+		"resourceId": "artifact:2047592908940378630",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Minus",
+		"resourceId": "artifact:2047592908940378630",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Slider1",
+		"resourceId": "artifact:2047592908286067203",
+		"dimensions": {
+			"width": 100,
+			"height": 0.5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Slider2",
+		"resourceId": "artifact:2047592908680331781",
+		"dimensions": {
+			"width": 16,
+			"height": 0.5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Stop",
+		"resourceId": "artifact:2047592908411896324",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Slider1 Red",
+		"resourceId": "artifact:2047610596001579095",
+		"dimensions": {
+			"width": 100,
+			"height": 0.5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Slider1 Purple",
+		"resourceId": "artifact:2051892294851756342",
+		"dimensions": {
+			"width": 100,
+			"height": 0.5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Slider1 Green",
+		"resourceId": "artifact:2054354668565299859",
+		"dimensions": {
+			"width": 100,
+			"height": 0.5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Slider1 Mask",
+		"resourceId": "artifact:2047610595213049927",
+		"dimensions": {
+			"width": 2.56,
+			"height": 2.56,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "VPN",
+		"resourceId": "artifact:2049747789922960046",
+		"dimensions": {
+			"width": 5.42,
+			"height": 5.42,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Equalizer",
+		"resourceId": "artifact:2050796199442645814",
+		"dimensions": {
+			"width": 5.42,
+			"height": 5.42,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Live",
+		"resourceId": "artifact:2051946213686640695",
+		"dimensions": {
+			"width": 5.12,
+			"height": 2.39,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Microphone",
+		"resourceId": "artifact:2049180141652804214",
+		"dimensions": {
+			"width": 8.3,
+			"height": 8.3,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Off",
+		"resourceId": "artifact:2046822292100481950",
+		"dimensions": {
+			"width": 5,
+			"height": 2.56,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "On",
+		"resourceId": "artifact:2052307672044142896",
+		"dimensions": {
+			"width": 5,
+			"height": 2.56,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Shutdown",
+		"resourceId": "artifact:2052307672572625201",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Lock",
+		"resourceId": "artifact:2052316699536916795",
+		"dimensions": {
+			"width": 6,
+			"height": 6,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Cell",
+		"resourceId": "artifact:2052929919171690794",
+		"dimensions": {
+			"width": 2.56,
+			"height": 2.56,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Cell Active",
+		"resourceId": "artifact:2052942565384127247",
+		"dimensions": {
+			"width": 2.56,
+			"height": 2.56,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Left",
+		"resourceId": "artifact:2052958334843093877",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Right",
+		"resourceId": "artifact:2052958335103140727",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Movie",
+		"resourceId": "artifact:2048722691287941553",
+		"dimensions": {
+			"width": 8.5,
+			"height": 8.5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Camera",
+		"resourceId": "artifact:2049180142827209337",
+		"dimensions": {
+			"width": 8,
+			"height": 8,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Altspace",
+		"resourceId": "artifact:2059878128175547322",
+		"dimensions": {
+			"width": 5,
+			"height": 5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Loading",
+		"resourceId": "artifact:2057355052296700385",
+		"dimensions": {
+			"width": 2.8,
+			"height": 2.5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Long",
+		"resourceId": "artifact:2057429117522936166",
+		"dimensions": {
+			"width": 2.62,
+			"height": 2.5,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Free",
+		"resourceId": "artifact:2064320481351172808",
+		"dimensions": {
+			"width": 6,
+			"height": 6,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "Cart",
+		"resourceId": "artifact:2064670322191237349",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "2D",
+		"resourceId": "artifact:2084277605506220181",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	},
+	{
+		"name": "3D",
+		"resourceId": "artifact:2084277605900484758",
+		"dimensions": {
+			"width": 5.12,
+			"height": 5.12,
+			"depth": 0.004032
+		}
+	}
+]

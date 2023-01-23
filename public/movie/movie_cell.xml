@@ -1,0 +1,15 @@
+<row class="container" width=200 height=60 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW' style='asset: "Background";'>
+	<Button id=${cell.id} width=40 height=55 img=${JSON.stringify(cell.img)}></Button>
+	<col width=160 height=60 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_FLEX_START' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+		<row width=160 height=15 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+			<col width=120 height=60 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<Text width=10 height=15 options='{textAnchor: "middle-left", textHeight: ${cell.titleHeight}}'>${cell.title}</Text>
+			</col>
+			<col width=40 height=60 justifyContent='JUSTIFY_FLEX_END' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<Text width=10 height=15 options='{textAnchor: "middle-right", textHeight: 0.07}' style='textColor: "#999999";'>(${cell.year})</Text>
+			</col>
+		</row>
+		<Text width=10 height=15 options='{textAnchor: "middle-left", textHeight: 0.05}' style='textColor: "#999999";'>${cell.annotation}</Text>
+		<Text width=10 height=30 options='{textAnchor: "middle-left", textHeight: ${cell.plotHeight}}' style='textColor: "#18BDE2";'>${cell.plot}</Text>
+	</col>
+</row>

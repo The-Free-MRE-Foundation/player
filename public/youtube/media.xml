@@ -1,0 +1,45 @@
+<root options='{alignment: "middle-center"}'>
+	<row class='scale' width=500 height=260 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+		<row class='scale' width=470 height=220 justifyContent='JUSTIFY_CENTER' alignItems='JUSTIFY_FLEX_START' flexDirection='FLEX_DIRECTION_ROW'>
+			<col width=330 height=50 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_FLEX_START' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+				<Text id='title' width=10 height=30 options='{textHeight: 0.12, textAnchor: "middle-left"}'></Text>
+				<Text id='uploader' width=20 height=20 options='{textHeight: 0.08, textAnchor: "middle-left"}' style='textColor: "#999999";'></Text>
+			</col>
+			<col width=140 height=50 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_FLEX_END' flexDirection='FLEX_DIRECTION_ROW'>
+				<Button id='3d' width=20 height=20 margins=4 style='asset: "3D";'></Button>
+				<Button id='visualize' width=20 height=20 margins=4 style='asset: "Equalizer";'></Button>
+				<Button id='forceplay' width=20 height=20 margins=4 style='asset: "VPN";'></Button>
+				<Button id='replay' width=20 height=20 margins=4 style='asset: "Refresh";'></Button>
+				<Button id='ratio' width=20 height=20 margins=4 style='asset: "Cell";' options='{textHeight: 0.07, textAnchor: "middle-center"}'>16:9</Button>
+			</col>
+		</row>
+		<row class='scale' width=470 height=40 justifyContent='JUSTIFY_FLEX_END' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+			<row width=470 height=40 justifyContent='JUSTIFY_FLEX_END' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' style='asset: "Background2";'>
+				<Slider id="time_slider" width=450 height=3 style='asset: "Slider1";' options='{disabled: false, animate: true, mask: {asset: "Slider1 Mask", underlay: "Slider1 Red"}}'></Slider>
+				<row width=500 height=30 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<col width=120 height=20 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+						<Button id='play' width=20 height=20 margins=4 style='asset: "Pause";'></Button>
+						<Button id='stop' width=20 height=20 margins=4 style='asset: "Stop";'></Button>
+						<Button id='backward' width=20 height=20 margins=4 style='asset: "Backward";'></Button>
+						<Button id='forward' width=20 height=20 margins=4 style='asset: "Forward";'></Button>
+					</col>
+					<Text id='time' width=90 height=20 options='{textHeight: 0.09, textAnchor: "middle-center"}' style='textColor: "#AAAAAA";'>0:12:34 / 2:34:56</Text>
+					<col width=110 height=20 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+						<Text width=16 height=16 margins=8 style='asset: "Wifi";'></Text>
+						<Number id='rolloff_number' width=70 height=20 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+							<Button id='dec' width=16 height=16 margins=8 style='asset: "Minus";'></Button>
+							<Button id='num' width=20 height=20 options='{textHeight: 0.09, textAnchor: "middle-center"}'></Button>
+							<Button id='inc' width=16 height=16 margins=8 style='asset: "Plus";'></Button>
+						</Number>
+					</col>
+					<col width=110 height=20 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+						<Button id='volume_button' width=20 height=20 margins=10 style='asset: "Volume Up";'></Button>
+						<Slider id="volume_slider" width=64 height=4 style='asset: "Slider2";' options='{puck: {asset: "Circle", width: 8, height: 8}}'></Slider>
+					</col>
+					<Button id='fullscreen' width=16 height=16 margins=14 style='asset: "Fullscreen";'></Button>
+				</row>
+			</row>
+		</row>
+	</row>
+	<row id='loading' positionType='POSITION_TYPE_ABSOLUTE' x=163 y=120 width=173 height=150 options='{depth: 2.2, hidden: true}' style='asset: "Long";'></row>
+</root>

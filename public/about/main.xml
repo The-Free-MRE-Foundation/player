@@ -1,0 +1,52 @@
+<root options='{alignment: "middle-center"}'>
+	<row width=520 height=550 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' style='asset: "Background";'>
+		<row width=520 height=50 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+			<row width=170 height=50 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<Button id='back' width=30 height=30 margins=6 style='asset: "Back";'></Button>
+			</row>
+			<row width=170 height=50 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<Text width=170 height=30 options='{textHeight: 0.17, textAnchor: "middle-center"}' style='textFont: "default";'>MRE and REHAB</Text>
+			</row>
+			<row width=170 height=50 justifyContent='JUSTIFY_FLEX_END' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<Button id='cart' width=30 height=30 margins=6 style='asset: "Cart";'></Button>
+			</row>
+		</row>
+		<row width=520 height=600 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+			<row width=520 height=80 margins=2 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_FLEX_START' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' style='asset: "Background4";'>
+				<Text width=40 height=30 options='{textHeight: 0.17, textAnchor: "middle-left"}' style='textFont: "monospace"; textColor: "#004DFF";'>What is an MRE?</Text>
+				<Text width=60 height=30 options='{textHeight: 0.12, textAnchor: "middle-left"}' style='textFont: "serif";'>⋅  MRE is short for "Mixed-Reality-Extension". It's Microsoft's solution for custom
+user scripting in Altspace VR.</Text>
+			</row>
+
+			<row width=520 height=80 margins=2 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_FLEX_START' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' style='asset: "Background4";'>
+				<Text width=40 height=30 options='{textHeight: 0.17, textAnchor: "middle-left"}' style='textFont: "monospace"; textColor: "#004DFF";'>Are MREs safe to use?</Text>
+				<Text width=60 height=30 options='{textHeight: 0.12, textAnchor: "middle-left"}' style='textFont: "serif";'>⋅  Yes. The top design goal of the MRE is security, making sure no custom native
+code is running on your device.</Text>
+			</row>
+			<row width=520 height=160 margins=2 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_FLEX_START' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' style='asset: "Background4";'>
+				<Text width=40 height=30 options='{textHeight: 0.17, textAnchor: "middle-left"}' style='textFont: "monospace"; textColor: "#004DFF";'>Should I pay for MREs?</Text>
+				<Text width=60 height=40 options='{textHeight: 0.12, textAnchor: "middle-left"}' style='textFont: "serif";'>⋅  Never pay for an MRE unless it's made for your custom request or it provides a
+non-free service</Text>
+				<Text width=60 height=40 options='{textHeight: 0.12, textAnchor: "middle-left"}' style='textFont: "serif";'>⋅  Always look for free, better quality alternatives and don't fuel scammers with
+your hard-earned money</Text>
+				<Text width=60 height=40 options='{textHeight: 0.12, textAnchor: "middle-left"}' style='textFont: "serif";'>⋅  Use common sense, don't pay if you can get better ones FOR FREE! A $300
+VIRTUAL costume, or $25 VIRTUAL cigar will always be laughed at.</Text>
+			</row>
+			<row width=520 height=150 margins=2 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_FLEX_START' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' style='asset: "Background4";'>
+				<Text width=30 height=30 options='{textHeight: 0.17, textAnchor: "middle-left"}' style='textFont: "monospace"; textColor: "#004DFF";'>Where do I find MREs?</Text>
+				<row width=520 height=20 marginLeft=20 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Button width=155 height=18 options='{textHeight: 0.12, textAnchor: "middle-center"}' style='textFont: "serif"; textColor: "#10EF71";'>The Free MRE Foundation</Button>
+					<Text width=1 height=20 options='{textHeight: 0.12, textAnchor: "middle-left"}' style='textFont: "serif";'>has started "REHAB", an open, free and transparent</Text>
+				</row>
+				<row width=520 height=20 marginLeft=20 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Button width=75 height=18 options='{textHeight: 0.12, textAnchor: "middle-center"}' style='textFont: "serif"; textColor: "#F74307";'>market place</Button>
+					<Text width=4 height=20 options='{textHeight: 0.12, textAnchor: "middle-left"}' style='textFont: "serif";'>and distribution platform for MREs and kits.</Text>
+				</row>
+				<row width=520 height=40 marginLeft=20 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Text width=4 height=20 options='{textHeight: 0.12, textAnchor: "middle-left"}' style='textFont: "serif";'>Click the colored text or the shopping cart icon to start browsing our
+scammer-free catalog of awesome MREs and kits!</Text>
+				</row>
+			</row>
+		</row>
+	</row>
+</root>

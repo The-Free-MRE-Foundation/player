@@ -1,0 +1,33 @@
+<root options='{alignment: "middle-center"}'>
+	<row width=230 height=370 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' style='asset: "Background3";'>
+		<row width=230 height=320 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+			<row width=230 height=50 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<col width=115 height=50 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Button id='back' width=25 height=25 margins=6 style='asset: "Back";'></Button>
+					<Text width=10 height=50 options='{textHeight: 0.12, textAnchor: "middle-left"}'>Close Settings</Text>
+				</col>
+				<col width=115 height=50 justifyContent='JUSTIFY_FLEX_END' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				</col>
+			</row>
+			<row width=230 height=50 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<col width=115 height=50 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Text width=25 height=25 margins=6 style='asset: "Lock";'></Text>
+					<Text width=10 height=50 options='{textHeight: 0.12, textAnchor: "middle-left"}'>Mod-only Control</Text>
+				</col>
+				<col width=115 height=50 justifyContent='JUSTIFY_FLEX_END' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Checkbox id='lock' margins=8 width=30 height=15 options='{checked: "On", unchecked: "Off"}'></Checkbox>
+				</col>
+			</row>
+		</row>
+		<row width=230 height=50 justifyContent='JUSTIFY_FLEX_END' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+			<row width=230 height=50 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				<col width=115 height=50 justifyContent='JUSTIFY_FLEX_START' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+					<Button id='shutdown' width=25 height=25 margins=6 style='asset: "Shutdown";'></Button>
+					<Text width=10 height=50 options='{textHeight: 0.12, textAnchor: "middle-left"}'>Exit Youtube</Text>
+				</col>
+				<col width=115 height=50 justifyContent='JUSTIFY_FLEX_END' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+				</col>
+			</row>
+		</row>
+	</row>
+</root>
