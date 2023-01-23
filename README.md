@@ -1,5 +1,5 @@
 # The Free MREdia Center
-An Media Center MRE for Altspace that's 100% free.  
+A Media Center MRE for Altspace that's 100% free.  
 - Features:
     - Player:
         - Basic media controls: volume, rolloff
