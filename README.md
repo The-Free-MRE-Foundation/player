@@ -67,7 +67,7 @@ A Media Center MRE for Altspace that's 100% free.
 ```
 All the videos are collected from open-source projects and personal collections.
 This MRE App is non-profit and for personal use only.
-Those who sell pirated stuff are losers,
+Those who pirate stuff are losers,
 those who sell free stuff are even bigger losers.
 ```
 
